@@ -1,0 +1,45 @@
+{
+  "name": "gulp-starter",
+  "version": "1.2.1",
+  "author": {
+    "name": "Juri Saltbacka",
+    "email": "juri@3bola.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3bola/gulp-starter.git"
+  },
+  "scripts": {
+    "install": "bower install && gulp -o"
+  },
+  "devDependencies": {
+    "bower": "*",
+    "del": "*",
+    "express": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-bower": "*",
+    "gulp-cache": "*",
+    "gulp-concat": "*",
+    "gulp-declare": "*",
+    "gulp-define-module": "*",
+    "gulp-filter": "*",
+    "gulp-handlebars": "*",
+    "gulp-if": "*",
+    "gulp-if-else": "*",
+    "gulp-imagemin": "*",
+    "gulp-livereload": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-useref": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "minimist": "*",
+    "opn": "*"
+  },
+  "dependencies": {
+    "gulp-watch": "^1.0.7"
+  }
+}
